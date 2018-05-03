@@ -1,6 +1,6 @@
 user_input = 'y'
 
-while user_input == 'y' :
+while user_input.casefold() == 'y' :
     Y = 1  
     X = 1 
     number  = int(input("Please enter the number to factor: ")) 
